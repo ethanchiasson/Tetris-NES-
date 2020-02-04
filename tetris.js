@@ -14,7 +14,7 @@ function arenaSweep() {
       player.score += rowCount * 575;
       rowCount *= 2;
       // For Levels
-      dropInterval -= 5;
+      dropInterval -= 8;
       player.lines += 1;
     }
   }
